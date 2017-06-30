@@ -1,10 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Router, Route, IndexRoute, hashHistory } from "react-router";
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import Layout from "./Layout";
 
-const app = document.getElementById('app');
+const app = document.querySelector('main');
 
 ReactDOM.render(
     <Router history={hashHistory}>
@@ -12,4 +11,5 @@ ReactDOM.render(
             <IndexRoute component={Layout}></IndexRoute>
         </Route>
     </Router>,
-app);
+    app
+);
