@@ -20,7 +20,7 @@
     "react-dom": "^15.6.1",
     "react-router": "^3.0.5",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^3.1.11"
   },
   "devDependencies": {},
   "scripts": {
